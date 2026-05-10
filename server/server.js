@@ -56,8 +56,8 @@ app.use(express.json());
 // Logging (STEP 6)
 app.use(morgan("dev"));
 
-// Auth middleware
-app.use(clerkMiddleware());
+// Auth middleware (moved below public routes)
+// app.use(clerkMiddleware());
 
 // Compression (STEP 4)
 app.use(compression());
@@ -74,7 +74,7 @@ const limiter = rateLimit({
 app.use(limiter);
 
 // --------------------
-// ROUTES
+// ROUTES (Public)
 // --------------------
 
 app.get('/', (req, res) => {
@@ -85,6 +85,13 @@ app.get('/', (req, res) => {
 app.get("/health", (req, res) => {
   res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
 });
+
+// Auth middleware
+app.use(clerkMiddleware());
+
+// --------------------
+// PROTECTED ROUTES & WEBHOOKS
+// --------------------
 
 app.post('/webhooks', clerkWebhooks);
 app.use('/api/company', companyRoutes);
@@ -117,7 +124,7 @@ console.log("🔄 Connecting to database...");
 connectDB()
   .then(async () => {
     console.log("✅ Database connected successfully");
-    
+
     // Drop problematic email unique index to prevent E11000 errors
     try {
       const User = (await import('./models/User.js')).default;

@@ -157,7 +157,7 @@ export const jobsData = [
         _id: '1',
         title: "Full Stack Developer",
         location: "California",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -182,7 +182,7 @@ export const jobsData = [
             <li>Strong understanding of web security and performance optimization.</li>
             <li>Ability to work in an Agile environment.</li>
         </ol>`,
-        salary: 82000,
+        salary: 8.2,
         date: 1729681667114,
         category: "Programming",
     },
@@ -190,7 +190,7 @@ export const jobsData = [
         _id: '2',
         title: "Data Scientist",
         location: "New York",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -215,7 +215,7 @@ export const jobsData = [
             <li>Familiarity with machine learning techniques and algorithms.</li>
             <li>Excellent problem-solving and critical-thinking skills.</li>
         </ol>`,
-        salary: 72000,
+        salary: 7.2,
         date: 1729681667114,
         category: "Data Science",
     },
@@ -223,7 +223,7 @@ export const jobsData = [
         _id: '3',
         title: "UI/UX Designer",
         location: "Bangalore",
-        level: "Beginner Level",
+        level: "0-1 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -248,7 +248,7 @@ export const jobsData = [
             <li>Excellent communication and teamwork skills.</li>
             <li>Creative problem-solving abilities.</li>
         </ol>`,
-        salary: 61000,
+        salary: 6.1,
         date: 1729681667114,
         category: "Designing",
     },
@@ -256,7 +256,7 @@ export const jobsData = [
         _id: '4',
         title: "DevOps Engineer",
         location: "Washington",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -281,7 +281,7 @@ export const jobsData = [
             <li>Familiarity with containerization technologies (e.g., Docker, Kubernetes).</li>
             <li>Excellent troubleshooting and analytical skills.</li>
         </ol>`,
-        salary: 53000,
+        salary: 5.3,
         date: 1729681667114,
         category: "Programming",
     },
@@ -289,7 +289,7 @@ export const jobsData = [
         _id: '5',
         title: "Software Engineer",
         location: "Hyderabad",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -314,7 +314,7 @@ export const jobsData = [
             <li>Familiarity with version control systems (e.g., Git).</li>
             <li>Excellent communication and teamwork abilities.</li>
         </ol>`,
-        salary: 91000,
+        salary: 9.1,
         date: 1729681667114,
         category: "Programming",
     },
@@ -322,7 +322,7 @@ export const jobsData = [
         _id: '6',
         title: "Network Engineer",
         location: "Bangalore",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -347,7 +347,7 @@ export const jobsData = [
             <li>Excellent communication and teamwork abilities.</li>
             <li>Relevant certifications (e.g., CCNA, CCNP) are a plus.</li>
         </ol>`,
-        salary: 77000,
+        salary: 7.7,
         date: 1729681667114,
         category: "Networking",
     },
@@ -355,7 +355,7 @@ export const jobsData = [
         _id: '7',
         title: "Project Manager",
         location: "Bangalore",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -380,7 +380,7 @@ export const jobsData = [
             <li>Excellent communication and interpersonal abilities.</li>
             <li>Certification in project management (e.g., PMP, Scrum Master) is preferred.</li>
         </ol>`,
-        salary: 60000,
+        salary: 6.0,
         date: 1729681667114,
         category: "Management",
     },
@@ -388,7 +388,7 @@ export const jobsData = [
         _id: '8',
         title: "Mobile App Developer",
         location: "Hyderabad",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -413,7 +413,7 @@ export const jobsData = [
             <li>Excellent problem-solving skills and attention to detail.</li>
             <li>Familiarity with version control systems (e.g., Git).</li>
         </ol>`,
-        salary: 112000,
+        salary: 11.2,
         date: 1729681667114,
         category: "Programming",
     },
@@ -421,7 +421,7 @@ export const jobsData = [
         _id: '9',
         title: "Cloud Architect",
         location: "Hyderabad",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -446,7 +446,7 @@ export const jobsData = [
             <li>Excellent analytical and problem-solving skills.</li>
             <li>Relevant certifications (e.g., AWS Certified Solutions Architect) are preferred.</li>
         </ol>`,
-        salary: 96000,
+        salary: 9.6,
         date: 1729681667114,
         category: "Programming",
     },
@@ -454,7 +454,7 @@ export const jobsData = [
         _id: '10',
         title: "Technical Writer",
         location: "Mumbai",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -479,7 +479,7 @@ export const jobsData = [
             <li>Strong communication and collaboration abilities.</li>
             <li>Attention to detail and a commitment to quality.</li>
         </ol>`,
-        salary: 72000,
+        salary: 7.2,
         date: 1729681667114,
         category: "Marketing",
     },
@@ -487,7 +487,7 @@ export const jobsData = [
         _id: '11',
         title: "Cybersecurity Analyst",
         location: "Mumbai",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -512,7 +512,7 @@ export const jobsData = [
             <li>Excellent problem-solving and analytical skills.</li>
             <li>Relevant certifications (e.g., CISSP, CEH) are a plus.</li>
         </ol>`,
-        salary: 62000,
+        salary: 6.2,
         date: 1729681667114,
         category: "Cybersecurity",
     },
@@ -520,7 +520,7 @@ export const jobsData = [
         _id: '12',
         title: "Business Analyst",
         location: "Mumbai",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -545,7 +545,7 @@ export const jobsData = [
             <li>Experience with data analysis and reporting.</li>
             <li>Familiarity with Agile methodologies is a plus.</li>
         </ol>`,
-        salary: 68000,
+        salary: 6.8,
         date: 1729681667114,
         category: "Management",
     },
@@ -553,7 +553,7 @@ export const jobsData = [
         _id: '13',
         title: "Marketing Specialist",
         location: "Chennai",
-        level: "Beginner Level",
+        level: "0-1 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -578,7 +578,7 @@ export const jobsData = [
             <li>Creative thinking and problem-solving abilities.</li>
             <li>Willingness to learn and adapt in a fast-paced environment.</li>
         </ol>`,
-        salary: 77000,
+        salary: 7.7,
         date: 1729681667114,
         category: "Marketing",
     },
@@ -586,7 +586,7 @@ export const jobsData = [
         _id: '14',
         title: "Data Scientist",
         location: "California",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -611,7 +611,7 @@ export const jobsData = [
             <li>Excellent problem-solving skills and attention to detail.</li>
             <li>Ability to communicate complex concepts to non-technical audiences.</li>
         </ol>`,
-        salary: 65000,
+        salary: 6.5,
         date: 1729681667114,
         category: "Data Science",
     },
@@ -619,7 +619,7 @@ export const jobsData = [
         _id: '15',
         title: "UX/UI Designer",
         location: "Hyderabad",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -644,7 +644,7 @@ export const jobsData = [
             <li>Excellent communication skills and ability to work collaboratively.</li>
             <li>A portfolio showcasing relevant design projects is required.</li>
         </ol>`,
-        salary: 64000,
+        salary: 6.4,
         date: 1729681667114,
         category: "Design",
     },
@@ -652,7 +652,7 @@ export const jobsData = [
         _id: '16',
         title: "DevOps Engineer",
         location: "Bangalore",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -677,7 +677,7 @@ export const jobsData = [
             <li>Excellent troubleshooting and problem-solving skills.</li>
             <li>Relevant certifications (e.g., AWS Certified DevOps Engineer) are a plus.</li>
         </ol>`,
-        salary: 74000,
+        salary: 7.4,
         date: 1729681667114,
         category: "Programming",
     },
@@ -685,7 +685,7 @@ export const jobsData = [
         _id: '17',
         title: "Sales Manager",
         location: "New York",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -710,7 +710,7 @@ export const jobsData = [
             <li>Experience with CRM software (e.g., Salesforce).</li>
             <li>A results-oriented mindset with a focus on meeting targets.</li>
         </ol>`,
-        salary: 59000,
+        salary: 5.9,
         date: 1729681667114,
         category: "Marketing",
     },
@@ -718,7 +718,7 @@ export const jobsData = [
         _id: '18',
         title: "Human Resources Specialist",
         location: "Washington",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -743,7 +743,7 @@ export const jobsData = [
             <li>Ability to maintain confidentiality and handle sensitive information.</li>
             <li>Attention to detail and strong organizational skills.</li>
         </ol>`,
-        salary: 89000,
+        salary: 8.9,
         date: 1729681667114,
         category: "Management",
     },
@@ -751,7 +751,7 @@ export const jobsData = [
         _id: '19',
         title: "Content Marketing Manager",
         location: "Mumbai",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -776,7 +776,7 @@ export const jobsData = [
             <li>Excellent analytical skills and ability to interpret data.</li>
             <li>Strong leadership and project management skills.</li>
         </ol>`,
-        salary: 99000,
+        salary: 9.9,
         date: 1729681667114,
         category: "Marketing",
     },
@@ -784,7 +784,7 @@ export const jobsData = [
         _id: '20',
         title: "Graphic Designer",
         location: "Chennai",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -809,7 +809,7 @@ export const jobsData = [
             <li>Excellent communication and collaboration skills.</li>
             <li>A portfolio showcasing relevant design work is required.</li>
         </ol>`,
-        salary: 91000,
+        salary: 9.1,
         date: 1729681667114,
         category: "Design",
     },
@@ -817,7 +817,7 @@ export const jobsData = [
         _id: '21',
         title: "Software Tester",
         location: "Chennai",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -850,7 +850,7 @@ export const jobsData = [
         _id: '22',
         title: "Network Security Engineer",
         location: "Bangalore",
-        level: "Senior Level",
+        level: ">6 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",
@@ -883,7 +883,7 @@ export const jobsData = [
         _id: '23',
         title: "Cloud Engineer",
         location: "Hyderabad",
-        level: "Intermediate Level",
+        level: "2-5 years",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
             "name": "Slack",

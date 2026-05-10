@@ -91,7 +91,7 @@ const JobCard = ({ job, index }) => {
       {/* Footer with CTA */}
       <div className="px-6 pb-6 pt-3 border-t border-purple-700 flex justify-between items-center">
         <div className="text-lg font-bold text-white">
-          ₹{job.salary || '0'}{job.salaryType === 'Range' ? '- ' + job.salaryMax : ''}
+          ₹{job.salary || '0'}{job.salaryType === 'Range' ? '- ' + job.salaryMax : ''}LPA
         </div>
         <motion.button
           whileHover={{ x: 3 }}

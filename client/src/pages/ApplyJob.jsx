@@ -157,8 +157,8 @@ const ApplyJob = () => {
     { icon: <FiMapPin size={18} />, text: jobData.location || "N/A" },
     { icon: <FiUser size={18} />, text: jobData.level || "N/A" },
     {
-      icon: <span size={18}>₹</span>,
-      text: jobData.salary ? kconvert.convertTo(jobData.salary) : "N/A",
+      icon: <span className="text-lg">₹</span>,
+      text: jobData.salary ? `${jobData.salary} LPA` : "N/A",
     },
   ];
 

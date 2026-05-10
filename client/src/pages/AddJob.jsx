@@ -11,7 +11,7 @@ const AddJob = () => {
   const [title, setTitle] = useState("");
   const [location, setLocation] = useState("Bangalore");
   const [category, setCategory] = useState("Programming");
-  const [level, setLevel] = useState("Beginner level");
+  const [level, setLevel] = useState("0-1 years");
   const [salary, setSalary] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
@@ -181,35 +181,39 @@ const AddJob = () => {
               {/* Job Level */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Job Level
+                  Job Experience
                 </label>
                 <select
                   value={level}
                   onChange={(e) => setLevel(e.target.value)}
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg bg-white text-gray-900 font-medium cursor-pointer focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="Beginner level" className="bg-white text-gray-900">Beginner level</option>
-                  <option value="Intermediate level" className="bg-white text-gray-900">Intermediate level</option>
-                  <option value="Senior level" className="bg-white text-gray-900">Senior level</option>
+                  <option value="0-1 years" className="bg-white text-gray-900">0-1 years</option>
+                  <option value="2-5 years" className="bg-white text-gray-900">2-5 years</option>
+                  <option value=">6 years" className="bg-white text-gray-900">>6 years</option>
                 </select>
               </div>
 
               {/* Job Salary */}
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-gray-700">
-                  Salary (₹)
+                  Salary (LPA)
                 </label>
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <span className="text-gray-500">₹</span>
                   </div>
+                  <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                    <span className="text-gray-500">LPA</span>
+                  </div>
                   <input
                     type="number"
                     min="0"
-                    placeholder="e.g. 75000"
+                    step="0.1"
+                    placeholder="e.g. 4.5"
                     value={salary}
                     onChange={(e) => setSalary(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-50 text-gray-900 placeholder-gray-500"
+                    className="w-full pl-8 pr-12 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-50 text-gray-900 placeholder-gray-500"
                   />
                 </div>
               </div>
