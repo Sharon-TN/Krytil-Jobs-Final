@@ -50,7 +50,7 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Sharon-T-N/Krytil-Jobs.git
+git clone https://github.com/Sharon-TN/Krytil-Jobs-Final.git
 cd Krytil-Jobs
 ```
 
